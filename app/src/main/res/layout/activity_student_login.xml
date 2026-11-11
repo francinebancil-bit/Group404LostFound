@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STUDENT LOGIN"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#397A55"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Enter your Gmail"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#397A55"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/signUpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Sign Up"
+        android:textSize="15sp"
+        android:textColor="#C98F9D"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

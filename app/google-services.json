@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "22299413579",
+    "project_id": "plmun-lost-and-found-28102",
+    "storage_bucket": "plmun-lost-and-found-28102.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22299413579:android:e6af9f6c187f7e9e9f91ce",
+        "android_client_info": {
+          "package_name": "com.example.group404lostfound"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUHXsWhcKv-11CrQp3qznACIvlzuQhNT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/faculty_login_title"
+        android:textColor="@color/dark_gray"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Faculty and Admin Access"
+        android:textColor="@color/pink_accent"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/facultyUsername"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/pink_primary"
+        android:hint="Username"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/dark_gray"
+        android:textColorHint="#888888"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/facultyPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/pink_primary"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="@color/dark_gray"
+        android:textColorHint="#888888"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/facultyLoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/pink_primary"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

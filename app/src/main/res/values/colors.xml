@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="pink_primary">#2E7655</color>
+    <color name="pink_light">#E9F2EC</color>
+
+    <color name="dark_gray">#245C45</color>
+    <color name="light_gray">#F4F7F5</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="pink_accent">#C98296</color>
+    <color name="pink_soft">#F7E8ED</color>
+
+    <color name="status_lost">#D9A066</color>
+    <color name="status_found">#2E7655</color>
+    <color name="status_claimed">#8E9AAF</color>
+    <color name="status_returned">#8EAA91</color>
+
+</resources>

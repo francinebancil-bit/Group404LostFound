@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Edit Lost / Found Item"
+            android:textColor="@color/dark_gray"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/itemImagePreview"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_gray"
+            android:contentDescription="Item photo"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/ic_menu_gallery" />
+
+        <Button
+            android:id="@+id/photoButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/pink_light"
+            android:text="CHANGE PHOTO"
+            android:textColor="@color/dark_gray"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/itemNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/pink_primary"
+            android:hint="Item Name"
+            android:inputType="textCapSentences"
+            android:padding="15dp"
+            android:textColor="@color/dark_gray"
+            android:textColorHint="#888888" />
+
+        <EditText
+            android:id="@+id/itemDescriptionInput"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/pink_primary"
+            android:gravity="top"
+            android:hint="Description"
+            android:inputType="textMultiLine|textCapSentences"
+            android:padding="15dp"
+            android:textColor="@color/dark_gray"
+            android:textColorHint="#888888" />
+
+        <EditText
+            android:id="@+id/itemCategoryInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/pink_primary"
+            android:hint="Category"
+            android:inputType="textCapSentences"
+            android:padding="15dp"
+            android:textColor="@color/dark_gray"
+            android:textColorHint="#888888" />
+
+        <EditText
+            android:id="@+id/itemDateInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/pink_primary"
+            android:hint="Date"
+            android:inputType="date"
+            android:padding="15dp"
+            android:textColor="@color/dark_gray"
+            android:textColorHint="#888888" />
+
+        <EditText
+            android:id="@+id/itemLocationInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/pink_primary"
+            android:hint="Location"
+            android:inputType="textCapSentences"
+            android:padding="15dp"
+            android:textColor="@color/dark_gray"
+            android:textColorHint="#888888" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Item Type"
+            android:textColor="@color/dark_gray"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/itemTypeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/pink_primary" />
+
+        <Button
+            android:id="@+id/saveEditButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/pink_primary"
+            android:text="SAVE CHANGES"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
+

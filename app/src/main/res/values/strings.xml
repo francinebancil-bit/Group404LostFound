@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">PLMun Lost and Found</string>
+
+    <string name="app_title">GROUP 404</string>
+    <string name="app_subtitle">Lost &amp; Found</string>
+    <string name="welcome_message">Find what you lost or help someone find their item.</string>
+    <string name="search_items_button">SEARCH ITEMS</string>
+    <string name="view_items_button">VIEW LOST &amp; FOUND ITEMS</string>
+    <string name="faculty_login">Faculty Login</string>
+    <string name="logo_description">Group 404 Logo</string>
+
+    <string name="search_items">Search Items</string>
+    <string name="search_hint">Search for an item</string>
+    <string name="search">SEARCH</string>
+    <string name="please_enter_item">Please enter an item to search.</string>
+    <string name="no_matching_items">No matching items found.</string>
+
+    <string name="lost_found_items">Lost &amp; Found Items</string>
+    <string name="no_items_available">No lost or found items available.</string>
+
+    <string name="faculty_dashboard">Faculty Dashboard</string>
+    <string name="manage_lost_found">Manage Lost &amp; Found Items</string>
+    <string name="add_lost_found_button">ADD LOST / FOUND ITEM</string>
+    <string name="manage_items">MANAGE ITEMS</string>
+    <string name="student_messages">STUDENT MESSAGES</string>
+
+    <!-- Faculty Login -->
+    <string name="faculty_login_title">Faculty Login</string>
+    <string name="login">LOGIN</string>
+
+    <string name="add_lost_found_item">Add Lost / Found Item</string>
+    <string name="item_name">Item Name</string>
+    <string name="description">Description</string>
+    <string name="category">Category</string>
+    <string name="date">Date</string>
+    <string name="location">Location</string>
+    <string name="item_type">Item Type</string>
+    <string name="item_status">Item Status</string>
+    <string name="add_photo">ADD PHOTO</string>
+    <string name="save_item">SAVE ITEM</string>
+
+    <string name="edit_item">Edit Item</string>
+    <string name="save_changes">SAVE CHANGES</string>
+    <string name="item_photo">Item Photo</string>
+    <string name="change_photo">CHANGE PHOTO</string>
+
+    <string name="item_saved_successfully">Item saved successfully!</string>
+    <string name="photo_selected_successfully">Photo selected successfully</string>
+    <string name="item_updated_successfully">Item updated successfully!</string>
+    <string name="status_updated">Status updated</string>
+    <string name="item_deleted">Item deleted</string>
+    <string name="delete_item">DELETE ITEM</string>
+
+    <string name="enter_item_name">Enter item name</string>
+    <string name="enter_description">Enter description</string>
+    <string name="enter_category">Enter category</string>
+    <string name="enter_date">Enter date</string>
+    <string name="enter_location">Enter location</string>
+
+    <string-array name="item_type_options">
+        <item>Lost</item>
+        <item>Found</item>
+    </string-array>
+
+    <string-array name="item_status_options">
+        <item>Available</item>
+        <item>Claimed</item>
+        <item>Returned</item>
+    </string-array>
+
+</resources>
+

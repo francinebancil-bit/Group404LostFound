@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLMun"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#397A55"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOST AND FOUND"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#39424E"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#397A55"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select your account type"
+        android:textSize="15sp"
+        android:textColor="#666666"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="35dp"/>
+
+    <Button
+        android:id="@+id/studentButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="STUDENT LOGIN / SIGN UP"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#397A55"/>
+
+    <Button
+        android:id="@+id/facultyButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="FACULTY LOGIN"
+        android:textColor="#39424E"
+        android:textStyle="bold"
+        android:backgroundTint="#F7E9ED"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLMun Lost and Found Application"
+        android:textSize="12sp"
+        android:textColor="#888888"
+        android:layout_marginTop="45dp"/>
+
+</LinearLayout>

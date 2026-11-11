@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.Group404LostFound"
+        parent="Theme.Material3.Dark.NoActionBar">
+
+        <item name="colorPrimary">#A8C9B2</item>
+        <item name="colorOnPrimary">#173D2D</item>
+
+        <item name="colorSecondary">#E0A7B7</item>
+        <item name="colorOnSecondary">#40232D</item>
+
+        <item name="android:colorBackground">#17251E</item>
+        <item name="colorSurface">#21352A</item>
+        <item name="colorOnSurface">#F1F5F2</item>
+
+        <item name="android:statusBarColor">#17251E</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="android:navigationBarColor">#17251E</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+    </style>
+
+</resources>
